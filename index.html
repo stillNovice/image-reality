@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Insert this line above script imports -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/jm.spinner.js"></script>
+    <script type="text/javascript" src="./js/action.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/signin.css">
+    <link rel="stylesheet" type="text/css" href="css/jm.spinner.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <!-- Spinner -->
+    <div class="mySpinner" id="mySpinner"></div>
+
+    <!-- Enlarge Image Modal starts -->
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img id="thisImage" style="overflow: auto;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Enlarge Image Modal ends -->
+
+    <!-- Rest of the html page starts -->
+    <div id="rest">
+
+      <!-- Directory User Input Card starts - AKA "cardDiv" -->
+      <div class="container">
+
+        <div class="card mx-auto text-center card-container" style="width: 25rem;">
+          <div class="card-body">
+            <h4> Please Enter the Directory Path: </h4>
+
+            <form class="form-signin">
+              
+              <div class="input-group">
+                  <input type="text" class="form-control" name="srcDir" id="srcDir" placeholder="Choose Source..." readonly required autofocus/>
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary btn-choose-src" type="button">Choose</button>
+                </span>
+              </div>
+
+              <div class="input-group">
+                  <input type="text" class="form-control" name="destDir" id="destDir" placeholder="Choose Destination..." readonly required/>
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary btn-choose-dest" type="button">Choose</button>
+                </span>
+              </div>
+              
+              <br/>
+              <input class="btn btn-lg btn-primary btn-block btn-submit" type="submit" disabled/>
+              
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <!-- Directory User Input Card ends -->
+
+      <!-- Working Div starts - AKA "workingDiv" -->
+      <div id="workingDiv">
+        <div class="buttonDiv text-center">
+          <button type="button" class="btn btn-secondary btn-lg btn-Back">Done!!!</button>
+
+          <!--
+          <div class="form-check form-check-inline floa">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> 1
+            </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2" style="color:red;"> 2
+            </label>
+          </div>
+          -->
+        </div>
+
+        
+
+        <br>
+        <br>
+        <div class="imagesSection"></div>
+        <div class="nothingToShow text-center" style="color: white; font-size: 1.5em;"> NOTHING TO SHOW HERE / THE IMAGES ARE ALREADY MOVED!!!</div>
+      </div>
+      <!-- Working Div ends -->
+
+    </div>
+    <!-- Rest of the html page starts -->
+
+  </body>
+</html>

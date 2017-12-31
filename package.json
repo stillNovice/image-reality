@@ -1,0 +1,25 @@
+{
+  "name": "image-reality-electron",
+  "productName": "Image-Reality",
+  "version": "2.0.1",
+  "description": "first electron app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/images/icon2.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . image-reality-electron --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/images/icon2.ico --prune=true --out=release-builds --version-string.CompanyName=stillNovice --version-string.FileDescription=CE --version-string.ProductName=\"Image-Reality\"",    
+    "package-linux": "electron-packager . image-reality-electron --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/images/icon2.png --prune=true --out=release-builds"
+  },
+  "author": "stillNovice",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "mime-types": "^2.1.17",
+    "remote": "^0.2.6"
+  },
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "electron-packager": "^10.1.0"
+  }
+}

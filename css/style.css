@@ -1,0 +1,38 @@
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin: 10 10 10 10;
+  background-image: url("../assets/images/background.jpg");
+}
+
+#spinner {
+  position: relative;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+}
+
+.nothingToShow {
+  display: none;
+}
+
+.mySpinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+}
+
+.btn-moveIt {
+  margin: auto;
+  max-width: 200px;
+}
+
+img {
+  width: 100%;
+}
+
+#workingDiv {
+  display: none;
+}
