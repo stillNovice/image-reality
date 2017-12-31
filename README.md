@@ -5,14 +5,29 @@ Add topics
 
 # Installation & Use
 ### Windows
+- Clone this repository:
 ```sh
 $ git clone git@github.com:stillNovice/image-reality.git
+```
+- Move into repository:
+```sh
 $ cd image-reality
+```
+- Install module dependencies:
+```sh
 $ npm install
+```
+- Run Express-Packager script:
+```sh
 $ npm run package-win
+```
+- Move into App Directory:
+```sh
 $ cd desktop-app\image-reality-win32-ia32
+```
+- Run the Application:
+```sh
 $ image-reality.exe
-
 ```
 
 # Usage & Features
