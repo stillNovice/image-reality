@@ -11,7 +11,7 @@ var renderSrcImages = function (obj) {
   var data = fs.readdirSync(obj.srcDir);
 
   data.forEach(function (elem, idx) {
-    //console.log('***' + idx , path.join(obj.destDir, elem), fse.pathExistsSync(path.join(obj.destDir, elem)));
+    //console.log('***' + idx , path.join(obj.destDir, elem), fse.pathExistsSync(path.join(obj.destDir, elem)), mime.contentType(path.extname(elem)).toString());
     if (mime.contentType(path.extname(elem)).toString().indexOf('image') != -1 && !fse.pathExistsSync(path.join(obj.destDir, elem))) {
       imageData.push({
         name: elem,

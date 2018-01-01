@@ -1,31 +1,35 @@
 # Image-Reality
 
-A Desktop Application and a Node.js Utility all in One. This App gives a User Friendly way to move thousands of Images from One directory to Other. Made with love using Node.js, Express.js, Express-Packager, Bootstrap and HTML & CSS. Edit
-Add topics
+A Desktop Application and a Node.js Utility all in One. This App gives a User Friendly way to move thousands of Images from One directory to Other. Made with love using Node.js, Express.js, Electron-Packager, Bootstrap and HTML & CSS.
+
+# Screenshots
+<img src="./screenshots/app-full" alt="working application" width="100%" height="100%"/>
+<img src="./screenshots/select-directory-dialog" alt="app asking to select directory" width="100%" height="100%"/>
+<img src="./screenshots/inside-app" alt="UI" width="100%" height="100%"/>
 
 # Installation & Use
 ### Windows
-- Clone this repository:
+- ##### Clone this repository:
 ```sh
 $ git clone git@github.com:stillNovice/image-reality.git
 ```
-- Move into repository:
+- ##### Move into repository:
 ```sh
 $ cd image-reality
 ```
-- Install module dependencies:
+- ##### Install module dependencies:
 ```sh
 $ npm install
 ```
-- Run Express-Packager script:
+- ##### Run Express-Packager script:
 ```sh
 $ npm run package-win
 ```
-- Move into App Directory:
+- ##### Move into App Directory:
 ```sh
 $ cd desktop-app\image-reality-win32-ia32
 ```
-- Run the Application:
+- ##### Run the Application:
 ```sh
 $ image-reality.exe
 ```
