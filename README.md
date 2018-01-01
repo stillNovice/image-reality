@@ -31,7 +31,7 @@ $ image-reality.exe
 ```
 
 # Usage & Features
-1. Once the application runs, Choose the Source Directory and Destination Directory. Source Directory being the Folder from which you want to move Images to another Folder (Destination Directory).
-2. All the images will be displayed in the app. Hit the "Move It!" button to instantly move the Image.
+1. Once the application runs, Choose the **Source Directory** and **Destination Directory**. Source Directory being the *Folder* from which you want to move Images to another *Folder* (Destination Directory).
+2. All the images will be displayed in the app. Hit the **"Move It!"** button to instantly move the Image.
 3. Click on the Image to view the image enlarged. Hit Enter to move the Image while in the Enlarged view.
 

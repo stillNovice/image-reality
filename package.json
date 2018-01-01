@@ -7,9 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/images/icon2.icns --prune=true --out=desktop-app",
-    "package-win": "electron-packager . image-reality --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/images/icon2.ico --prune=true --out=desktop-app --version-string.CompanyName=stillNovice --version-string.FileDescription=CE --version-string.ProductName=\"Image-Reality\"",    
-    "package-linux": "electron-packager . image-reality --overwrite --asar=true --platform=linux --arch=x64 --icon=assets/images/icon2.png --prune=true --out=desktop-app"
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=desktop-app",
+    "package-win": "electron-packager . image-reality --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=desktop-app --version-string.CompanyName=stillNovice --version-string.FileDescription=CE --version-string.ProductName=\"Image-Reality\"",    
+    "package-linux": "electron-packager . image-reality --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=desktop-app"
   },
   "author": "stillNovice",
   "license": "ISC",
