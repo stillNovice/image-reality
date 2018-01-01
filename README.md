@@ -3,9 +3,9 @@
 A Desktop Application and a Node.js Utility all in One. This App gives a User Friendly way to move thousands of Images from One directory to Other. Made with love using Node.js, Express.js, Electron-Packager, Bootstrap and HTML & CSS.
 
 # Screenshots
-<img src="./screenshots/app-full" alt="working application" width="100%" height="100%"/>
-<img src="./screenshots/select-directory-dialog" alt="app asking to select directory" width="100%" height="100%"/>
-<img src="./screenshots/inside-app" alt="UI" width="100%" height="100%"/>
+<img src="./screenshots/app-full.png" alt="working application" width="100%" height="100%"/>
+<img src="./screenshots/select-directory-dialog.png" alt="app asking to select directory" width="100%" height="100%"/>
+<img src="./screenshots/inside-app.PNG" alt="UI" width="100%" height="100%"/>
 
 # Installation & Use
 ### Windows
